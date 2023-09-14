@@ -1,0 +1,9 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.bg1 {
+  background: url("/img/Component 3.png");
+  background-size: cover;
+  background-position: 48%;
+}
