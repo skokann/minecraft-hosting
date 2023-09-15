@@ -2,7 +2,12 @@
 module.exports = {
   content: ["./src/**/*.{html,js,ts,tsx}"],
   theme: {
-    extend: {},
+    extend: {
+      fontFamily: {
+        stapel: "Stapel",
+        stapelLight: "Stapell",
+      },
+    },
   },
   plugins: [],
 };

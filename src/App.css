@@ -7,3 +7,13 @@
   background-size: cover;
   background-position: 48%;
 }
+
+@font-face {
+  font-family: "Stapel";
+  src: url("src/fonts/Stapel_Medium.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "stapelLight";
+  src: url("src/fonts/Stapel_Text-Light.ttf") format("truetype");
+}
