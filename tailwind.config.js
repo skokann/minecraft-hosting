@@ -7,6 +7,9 @@ module.exports = {
         stapel: "Stapel",
         stapelLight: "Stapell",
       },
+      colors: {
+        uran: "#0dd644",
+      },
     },
   },
   plugins: [],
