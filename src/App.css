@@ -17,3 +17,8 @@
   font-family: "stapelLight";
   src: url("/fonts/Stapel_Text-Light.ttf") format("truetype");
 }
+
+@font-face {
+  font-family: "stapelEB";
+  src: url("/fonts/Stapel_Extra-Bold.ttf") format("truetype");
+}

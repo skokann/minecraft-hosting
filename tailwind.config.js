@@ -6,6 +6,7 @@ module.exports = {
       fontFamily: {
         stapel: "Stapel",
         stapelLight: "Stapell",
+        stapelEB: "StapelEB",
       },
       colors: {
         uran: "#0dd644",
