@@ -1,7 +1,7 @@
 import "../App.css";
 function Hero() {
   return (
-    <div className="w-screen h-screen bg1">
+    <div className="w-screen h-screen bg1 ">
       <div className="w-full h-full bg-gradient-to-t from-black via-black/80 to-transparent flex flex-col items-center justify-center pt-36 ">
         <h1 className="text-center text-white uppercase text-4xl xl:text-8xl font-stapel">
           CRAFTCONNECT
