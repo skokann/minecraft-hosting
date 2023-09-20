@@ -4,6 +4,7 @@ module.exports = {
   theme: {
     extend: {
       fontFamily: {
+        Raleway: ["Raleway"],
         stapel: "Stapel",
         stapelLight: "Stapell",
         stapelEB: "StapelEB",
