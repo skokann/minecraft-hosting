@@ -5,9 +5,9 @@ type ModPackProps = {
 
 export const ModPack = ({ header, image }: ModPackProps) => {
   return (
-    <div className="flex w-full items-center flex-col">
-      <h4 className="text-base pb-10 font-bold">{header}</h4>
-      <img src={image} alt={header} className=" " />
+    <div className="flex w-full gap-5 h-auto items-center flex-col">
+      <h4 className="text-base font-bold">{header}</h4>
+      <img src={image} alt={header} className="" />
     </div>
   );
 };

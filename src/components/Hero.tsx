@@ -22,6 +22,9 @@ function Hero() {
             <p className=" text-xs text-gray-500">online servers</p>
             <p>1,256</p>
           </div>
+          <button className="mt-8 bg-uran text-black">
+            Register your own server
+          </button>
         </div>
       </div>
     </div>
