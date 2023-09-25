@@ -5,7 +5,7 @@ import "./index.css";
 import "./App.css";
 
 import { createBrowserRouter, RouterProvider } from "react-router-dom";
-import Register from "./pages/register.tsx";
+import Register from "./pages/Register.tsx";
 
 const router = createBrowserRouter([
   {
