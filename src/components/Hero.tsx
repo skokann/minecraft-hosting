@@ -1,5 +1,8 @@
 import "../App.css";
+import { useNavigate } from "react-router-dom";
+
 function Hero() {
+  const navigate = useNavigate();
   return (
     <div className="w-screen h-screen bg1 ">
       <div className="w-full h-full bg-gradient-to-t from-black via-black/80 to-transparent flex flex-col items-center justify-center pt-36 ">
@@ -22,10 +25,13 @@ function Hero() {
             <p className=" text-xs text-gray-500">online servers</p>
             <p>1,256</p>
           </div>
-          <button className="mt-8 bg-uran text-black">
-            Register your own server
-          </button>
         </div>
+        <button
+          onClick={() => navigate("/register")}
+          className="mt-8 bg-uran text-black"
+        >
+          Register your own server
+        </button>
       </div>
     </div>
   );

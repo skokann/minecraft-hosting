@@ -1,6 +1,6 @@
 function Footer() {
   return (
-    <div className="bg-black text-center pt-32 ">
+    <div className="bg-black text-center pt-5 ">
       <footer className=" shadow bg-black ">
         <div className="w-full max-w-screen-xl mx-auto p-4  ">
           <div className="sm:flex sm:items-center sm:justify-center ">

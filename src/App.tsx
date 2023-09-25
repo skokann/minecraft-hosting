@@ -1,4 +1,3 @@
-import "./App.css";
 import Hero from "./components/Hero";
 import Bar from "./components/Bar";
 import Modpacks from "./components/Modpacks";

@@ -1,9 +1,9 @@
 function Discover() {
   return (
     <div className="bg-black">
-      <h1 className="text-center py-10">Discover us</h1>
-      <div className="flex flex-col text-sm text-center  justify-center gap-5 px-10 items-center w-full h-screen  pt-10   ">
-        <div className="bg-green-500  p-2 rounded-2xl">
+      <h1 className="text-center font-Raleway font-bold py-8">Discover us</h1>
+      <div className="flex flex-col text-sm text-center   justify-center gap-5 px-10 items-center w-full h-screen    ">
+        <div className="bg-green-500 w-full p-2 rounded-2xl">
           <p className="text-xl m-1 ">DDOS PROTECTION</p>
           <p>
             Always-on traffic monitoring: Your application traffic patterns are
@@ -11,7 +11,7 @@ function Discover() {
             DDoS attacks.
           </p>
         </div>
-        <div className="bg-green-500 p-2 rounded-2xl ">
+        <div className="bg-green-500 w-full   p-2 rounded-2xl ">
           <p className="text-xl m-1">LOCATIONS AROUND THE WORLD</p>
           <p>
             We own and operate data centers around the world to keep our
@@ -20,7 +20,7 @@ function Discover() {
         </div>
         <div
           className="
-        bg-green-500 p-2 rounded-2xl "
+        bg-green-500 w-full  p-2 rounded-2xl "
         >
           <p className="text-xl m-1">24/7/365 SUPPORT</p>
           <p>
@@ -31,7 +31,7 @@ function Discover() {
         </div>
         <div
           className="
-        bg-green-500 p-2 rounded-2xl"
+        bg-green-500 w-full  p-2 rounded-2xl"
         >
           <p className="text-xl m-1">Instant Setup</p>
           <p>
@@ -39,14 +39,14 @@ function Discover() {
             play in seconds so you can start building today.
           </p>
         </div>
-        <div className="bg-green-500 p-2 rounded-2xl">
+        <div className="bg-green-500 w-full  p-2 rounded-2xl ">
           <p className="text-xl m-1">2,000+ SERVER MODPACK INSTALLS</p>
           <p>
             We support modpacks from the following Launchers: CurseForge,
             ATLauncher and the FTB App.
           </p>
         </div>
-        <div className="bg-green-500 p-2 rounded-2xl">
+        <div className="bg-green-500 w-full  p-2 rounded-2xl">
           <p className="text-xl m-1">NVME SSDS</p>
           <p>
             NVMe technology provides superior storage, speed and compatibility
